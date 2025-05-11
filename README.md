@@ -82,4 +82,8 @@ To view the changes locally run
 ```sh
 fern generate --group python-sdk --preview
 # `fern write-definition` shows you the intermediate step
-```
+```B5690EEEBB952194
+from elevenlabs.client import ElevenLabs
+
+client = ElevenLabs(
+api_key='YOUR_API_KEY',sk_d8df5f7270aa792370a52a2ee3e1ac1d46bb4231b2ee6706)
